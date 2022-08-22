@@ -1,0 +1,41 @@
+.beer-card {
+    display: grid;
+    background-color: #bcac9b;
+    place-items: center center;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 20vw;
+    height: 50vh;
+    margin: 20px;
+
+    .image {
+        display: grid;
+        height: 200px;
+        width: 100px;
+    }
+
+    .beer__name {
+        display: grid;
+        justify-content: center;
+        font-size: 1.5em;
+        color: #2a3d45;
+        text-align: center;
+    }
+
+    .info{
+        background-color: #2a3d45;
+        font-size: 1em;
+        border: none;
+        color: #bcac9b;
+        height: 40px;
+        border-radius: 10px;
+    }
+
+    .abv {
+        color: #2a3d45;
+    }
+}
+
+.beer-card:hover {
+    box-shadow: 5px 5px 5px #2a3d45;
+}
